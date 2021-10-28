@@ -7,7 +7,7 @@ coverY: 0
 
 **Overview**
 
-You will essentially be interacting with 3 contracts (high level overview) using Etherscan.
+You will essentially be interacting with 3 contracts (high level overview) using [Etherscan](https://etherscan.io).
 
 1. **UniswapV3Factory (0x1F98431c8aD98523631AE4a59f267346ea31F984)**
    1. **This contract will mainly be used for finding the pool address for the liquidity you provided**

@@ -1,6 +1,6 @@
 # Step by step guide to liquidity mining
 
-if you have already staked on UniswapV3 and would like to continue to the liquidity mining farm, click [here](./).
+If you have already staked on UniswapV3 and would like to continue to the liquidity mining farm, click [here](./). If not carry on with this tutorial where you will first be interacting with the Uniswap interface.
 
 1. Click on this link [https://app.uniswap.org/#/pool](https://app.uniswap.org/#/pool)
 
@@ -23,6 +23,10 @@ if you have already staked on UniswapV3 and would like to continue to the liquid
 ![](<.gitbook/assets/Uniswap LP 5.PNG>)
 
 5\. Input your `Min Price`, `Max Price`, `ETH` and `PUNDIX` amounts and then click `approve PUNDIX`.
+
+{% hint style="info" %}
+Please ensure that you have done your own research on the UniswapV3 and the price range that you will be providing liquidity for so you won't get rekt.
+{% endhint %}
 
 ![](<.gitbook/assets/Uniswap LP 6.PNG>)
 
