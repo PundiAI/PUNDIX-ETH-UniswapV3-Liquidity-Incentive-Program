@@ -4,7 +4,9 @@ description: >-
   Contract
 ---
 
-# NonfungiblePositionManager (2)
+# Step 4: NonfungiblePositionManager (Part 2)
+
+### All subsequent interactions will be on Etherscan. Please refer to this [link](https://etherscan.io)
 
 ### 0xC36442b4a4522E871399CD717aBDD847Ab11FE88
 
@@ -20,11 +22,11 @@ description: >-
 
 ![](<../.gitbook/assets/Metamask to Etherscan.PNG>)
 
-&#x20;  6\.  Input:
+6\. Input:
 
-&#x20;        1\.  to (address)
+1\. to (address)
 
-&#x20;        2\.  tokenId (uint256)
+2\. tokenId (uint256)
 
 ```
 0x1f98407aaB862CdDeF78Ed252D6f557aA5b0f00d
@@ -33,7 +35,7 @@ description: >-
 
 > for Field 1, be sure to put in this address: 0x1f98407aaB862CdDeF78Ed252D6f557aA5b0f00d
 >
-> &#x20;this is the contract address of UniswapV3Staker
+> this is the contract address of UniswapV3Staker
 
 7\. Click `write`
 
@@ -59,7 +61,7 @@ description: >-
 >
 > this is the contract address of UniswapV3Staker
 
-&#x20; 3\.  Click `write`
+3\. Click `write`
 
 12\. A Metamask notification will appear, click `confirm`
 
