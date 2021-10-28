@@ -4,6 +4,8 @@ description: 'Objectives: Check if your pool/token is eligible for our incentive
 
 # NonfungiblePositionManager (1)
 
+### All subsequent interactions will be on etherscan. Please refer to this [link](https://etherscan.io).
+
 ### 0xC36442b4a4522E871399CD717aBDD847Ab11FE88
 
 1. Input `0xC36442b4a4522E871399CD717aBDD847Ab11FE88` in the search bar
