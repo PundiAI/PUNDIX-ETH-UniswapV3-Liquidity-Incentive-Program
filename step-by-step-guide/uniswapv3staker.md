@@ -2,7 +2,7 @@
 description: 'Objectives: Stake, Unstake, Withdraw and Claim reward'
 ---
 
-# UniswapV3Staker
+# Step 5: UniswapV3Staker
 
 ![](<../.gitbook/assets/UniV3Staker 18-10-21.png>)
 
@@ -16,6 +16,10 @@ description: 'Objectives: Stake, Unstake, Withdraw and Claim reward'
 
 ### Part 1 (Stake)
 
+{% hint style="info" %}
+You may only start staking in the pool when the incentive has started on **Friday, 12 November, 2021 9:00:00 AM (GMT+8).**
+{% endhint %}
+
 1. Input `0x1f98407aaB862CdDeF78Ed252D6f557aA5b0f00d` in the search bar
 2. Navigate to the `Contract` tab
 3. Click on the `Write Contract` button
@@ -26,7 +30,7 @@ description: 'Objectives: Stake, Unstake, Withdraw and Claim reward'
    2. tokenId
 
 ```
-['0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38','0xD050430dd432876cF5622fF60c4Dc106b64fA753', 1633680000, 1633852800,'0x1A63853beA8A8ccFb52898E1783909d7da475E46']
+['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0x1A63853beA8A8ccFb52898E1783909d7da475E46']
 <your tokenID>
 ```
 
@@ -42,9 +46,9 @@ description: 'Objectives: Stake, Unstake, Withdraw and Claim reward'
 Your tokenID needs to match the pool address if not the contract will throw an error
 {% endhint %}
 
-&#x20; 7\. Click `write`
+7\. Click `write`
 
-&#x20; 8\. A Metamask notification will appear, click `confirm`
+8\. A Metamask notification will appear, click `confirm`
 
 ![](<../.gitbook/assets/UniswapV3Staker User1 Stake.PNG>)
 
@@ -60,7 +64,7 @@ You will always need to unstake before withdrawing even when the incentive has a
    2. tokenId (uint256)
 
 ```
-['0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38','0xD050430dd432876cF5622fF60c4Dc106b64fA753', 1633680000, 1633852800,'0x1A63853beA8A8ccFb52898E1783909d7da475E46']
+['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0x1A63853beA8A8ccFb52898E1783909d7da475E46']
 <your tokenID>
 ```
 
@@ -68,9 +72,9 @@ You will always need to unstake before withdrawing even when the incentive has a
 Once the incentive has ended, your token can be unstaked by anyone, and you may stand to lose your rewards if you do not claim them.
 {% endhint %}
 
-&#x20; 3\. Click `write`
+3\. Click `write`
 
-&#x20; 4\. A Metamask notification will appear, click `confirm`
+4\. A Metamask notification will appear, click `confirm`
 
 ![](<../.gitbook/assets/UniswapV3Staker User 2 Unstake.PNG>)
 
@@ -96,9 +100,9 @@ Please ensure your token has been unstaked before withdrawing. Once the incentiv
 Ensure \<your wallet address> is the owner of \<your tokenID>
 {% endhint %}
 
-&#x20; 3\. Click `write`
+3\. Click `write`
 
-&#x20; 4\. A Metamask notification will appear, click `confirm`
+4\. A Metamask notification will appear, click `confirm`
 
 ![](<../.gitbook/assets/UniswapV3Staker User 3 (withdrawToken).PNG>)
 
@@ -117,11 +121,11 @@ Use the `getRewardInfo` function if your token is <mark style="color:red;">STILL
    2. tokenId (uint256)
 
 ```
-['0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38','0xD050430dd432876cF5622fF60c4Dc106b64fA753', 1633680000, 1633852800,'0x1A63853beA8A8ccFb52898E1783909d7da475E46']
+['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0x1A63853beA8A8ccFb52898E1783909d7da475E46']
 <your tokenID>
 ```
 
-&#x20;  4\. Click `query` return (eg):
+4\. Click `query` return (eg):
 
 ```
 reward uint256, secondsInsideX128 uint160
@@ -152,7 +156,7 @@ The `rewards` function can only be used once you have <mark style="color:red;">`
 Ensure \<your wallet address> is the owner of \<your tokenID>
 {% endhint %}
 
-&#x20;  3\. Click `query` return (eg):
+3\. Click `query` return (eg):
 
 ```
 uint256
@@ -179,13 +183,13 @@ uint256 : 0
 ```
 
 {% hint style="info" %}
-The amount you requested from part **4b) **will be needed here. You may request any amount between 0 to the amount you requested in **4b).**
+The amount you requested from part \*\*4b) \*\*will be needed here. You may request any amount between 0 to the amount you requested in **4b).**
 
 Say my eligible rewards was 21961075569626700000. I can claim a reward amount anything ranging from 1 to 21961075569626700000.
 {% endhint %}
 
-&#x20; 5\. Click `write`
+5\. Click `write`
 
-&#x20; 6\. A Metamask notification will appear, click `confirm`
+6\. A Metamask notification will appear, click `confirm`
 
 ![](<../.gitbook/assets/UniswapV3Staker User 6 (claimReward).PNG>)
