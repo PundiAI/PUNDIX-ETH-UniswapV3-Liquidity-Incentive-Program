@@ -1,30 +1,37 @@
----
-description: Teaching users how to stake in an incentive pool created by Pundi X
-coverY: 0
----
+# Step by step guide to liquidity mining
 
-# Uniswapv3Staker User Manual
+if you have already staked on UniswapV3 and would like to continue to the liquidity mining farm, click [here](./).
 
-**Overview**
+1. Click on this link [https://app.uniswap.org/#/pool](https://app.uniswap.org/#/pool)
 
-You will essentially be interacting with 3 contracts (high level overview)
+![](<.gitbook/assets/Uniswap LP 1.png>)
 
-1. **UniswapV3Factory (0x1F98431c8aD98523631AE4a59f267346ea31F984)**
-   1. **This contract will mainly be used for finding the pool address for the liquidity you provided**
-   2. _You may refer to the _[_Uniswapv3 Factory technical docs_](https://docs.uniswap.org/protocol/reference/core/UniswapV3Factory)_ or_
-   3. _The Github _[_Uniswapv3 Factory_](https://github.com/Uniswap/v3-core/blob/v1.0.0/contracts/UniswapV3Factory.sol)_ code_
-2. **NonfungiblePositionManager (0xC36442b4a4522E871399CD717aBDD847Ab11FE88)**
-   1. **This will be your NFT token manager for approvals, querying of NFT info, safeTransferFrom to other accounts or smart contracts**
-   2. To put it simply, this is a bridge/router/manager on your NFT.
-   3. _You may refer to the to the _[_NonfungiblePositionManager technical docs_](https://docs.uniswap.org/sdk/reference/classes/NonfungiblePositionManager)_ or_
-   4. _The Github _[_NonfungiblePositionManager_](https://github.com/Uniswap/v3-periphery/blob/main/contracts/NonfungiblePositionManager.sol)_ code_
-3. **UniswapV3Staker (0x1f98407aaB862CdDeF78Ed252D6f557aA5b0f00d):**
-   1. **This is the main contract to interact with for liquidity mining/stake in the incentive pool created**
-   2. _You may refer to the _[_UniswapV3Staker technical docs_](https://docs.uniswap.org/protocol/reference/periphery/staker/UniswapV3Staker)_ or_
-   3. _The Github _[_Uniswapv3Staker_](https://github.com/Uniswap/v3-staker)_ code_
+2\. Click `Connect a wallet`.\*\* \*\*If you are using f(x)Wallet, you can choose the `WalletConnect` protocol to connect f(x)Wallet to UniswapV3.
 
-![High level overview of the flow of interaction with the contracts](<.gitbook/assets/Overview Chart.PNG>)
+![](<.gitbook/assets/Uniswap LP 2.png>)
 
-{% hint style="info" %}
-**If you are sure about your pool info i.e. that you have provided liquidity for PUNDIX-ETH at the 0.3% fee level, you may skip directly to **[**NonfungiblePositionManager (1)**](step-by-step-guide/nonfungiblepositionmanager-1.md)** and just follow the steps accordingly. Make sure you have your tokenID handy too!**
-{% endhint %}
+3\. Open your f(x)Wallet and click the circle in the center. A menu will popup. Choose `scan`, select an `address`, and click `Authorize` to connect your wallet.
+
+![](<.gitbook/assets/f(x)wallet1 (1).jpg>) ![](.gitbook/assets/f\(x\)wallet2.jpg) ![](.gitbook/assets/f\(x\)wallet3.jpg) ![](.gitbook/assets/f\(x\)wallet4.jpg)
+
+4\. Once your wallet is connected, head back to the UniswapV3 interface, click `New position` and select `ETH-PUNDIX` pair and ensure you have selected the `0.3% fee tier` if that is not already the default.
+
+![](<.gitbook/assets/Uniswap LP 3.png>)
+
+![](<.gitbook/assets/Uniswap LP 4 (1).png>)
+
+![](<.gitbook/assets/Uniswap LP 5.PNG>)
+
+5\. Input your `Min Price`, `Max Price`, `ETH` and `PUNDIX` amounts and then click `approve PUNDIX`.
+
+![](<.gitbook/assets/Uniswap LP 6.PNG>)
+
+6\. A metamask pop-up notification will appear and click `confirm`.
+
+![](<.gitbook/assets/Uniswap LP 7.PNG>)
+
+7\. Click `Preview` then when a pop-up appears, click `Add`.
+
+![](<.gitbook/assets/Uniswap LP 8.PNG>) ![](<.gitbook/assets/Uniswap LP 9.PNG>)
+
+8\. You will be directed back to the main `pool` page and your liquidity positions will appear there.
