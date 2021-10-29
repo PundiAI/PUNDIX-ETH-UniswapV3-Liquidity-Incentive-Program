@@ -16,7 +16,7 @@ You will essentially be interacting with 3 contracts (high level overview) using
 2. **NonfungiblePositionManager (0xC36442b4a4522E871399CD717aBDD847Ab11FE88)**
    1. **This will be your NFT token manager for approvals, querying of NFT info, safeTransferFrom to other accounts or smart contracts**
    2. To put it simply, this is a bridge/router/manager on your NFT.
-   3. _You may refer to the to the _[_NonfungiblePositionManager technical docs_](https://docs.uniswap.org/sdk/reference/classes/NonfungiblePositionManager)_ or_
+   3. _You may refer to the to the _[_NonfungiblePositionManager technical docs_](https://docs.uniswap.org/protocol/reference/periphery/interfaces/INonfungiblePositionManager)_ or_
    4. _The Github _[_NonfungiblePositionManager_](https://github.com/Uniswap/v3-periphery/blob/main/contracts/NonfungiblePositionManager.sol)_ code_
 3. **UniswapV3Staker (0x1f98407aaB862CdDeF78Ed252D6f557aA5b0f00d):**
    1. **This is the main contract to interact with for liquidity mining/stake in the incentive pool created**
