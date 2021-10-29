@@ -5,7 +5,7 @@ description: >-
   keep track)
 ---
 
-# Step by step guide to staking in incentive pool
+# Step by step guide to staking in incentive farm
 
 {% hint style="info" %}
 Before you proceed any further, make sure you have Metamask browser wallet extension installed. To install on google chrome, find the link [here](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en).
@@ -16,4 +16,4 @@ Before you proceed any further, make sure you have Metamask browser wallet exten
 | <ol><li>TokenID</li></ol>                                                                                  |                                                                                                                                         |
 | <ol><li><p><strong>Pool address</strong></p><ol><li>TokenA</li><li>TokenB</li><li>Fees</li></ol></li></ol> | <table><thead><tr><th></th></tr></thead><tbody><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr></tbody></table> |
 
-> if you have your TokenID handy and are sure about which pool your token belongs to, you can skip to stage2
+> if you have your TokenID handy and are sure about which pool your token belongs to, you can skip to [step 4](nonfungiblepositionmanager-2.md).

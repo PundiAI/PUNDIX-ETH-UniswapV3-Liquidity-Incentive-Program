@@ -4,7 +4,7 @@ description: 'Objectives: Obtain token ID using the Uniswap Interface'
 
 # Step 1: Get token ID
 
-> if you have your `TokenID` handy and are sure about which `pool` your token belongs to, you can skip directly to [step 4](nonfungiblepositionmanager-2.md).
+> if you have your `TokenID` handy and are sure about which `pool` your token belongs to, you can skip directly to[ step 4](nonfungiblepositionmanager-2.md).
 
 1. In the [interface](https://app.uniswap.org/#/pool), click on the `pools` tab to view the pools you have created or to create a new pool (by clicking on the `New Position` button)
 2. In `Your positions` table, select the `PUNDIX/ETH (0.3%)` position to reveal more information about the position.
