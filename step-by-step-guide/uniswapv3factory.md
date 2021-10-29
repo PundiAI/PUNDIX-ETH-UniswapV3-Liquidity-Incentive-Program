@@ -1,10 +1,13 @@
 ---
-description: 'Objectives: Get pool address'
+description: >-
+  Objectives: Using Etherscan and interacting with the UniswapV3Factory contract
+  to find the pool address of your token to see if you are eligible for our
+  rewards
 ---
 
-# UniswapV3Factory
+# Step 3: Get pool address to check if eligible for incentive programme
 
-### 0x1F98431c8aD98523631AE4a59f267346ea31F984
+### UniswapV3Factory (0x1F98431c8aD98523631AE4a59f267346ea31F984)
 
 1. Input `0x1F98431c8aD98523631AE4a59f267346ea31F984` in the search bar
 2. Navigate to the `Contract` tab
@@ -21,7 +24,7 @@ description: 'Objectives: Get pool address'
 <fee>
 ```
 
-&#x20;  6\. Click `query` (return example):
+6\. Click `query` (return example):
 
 ```
  address

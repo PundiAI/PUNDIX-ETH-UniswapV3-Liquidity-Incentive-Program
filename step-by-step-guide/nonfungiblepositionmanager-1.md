@@ -1,12 +1,15 @@
 ---
-description: 'Objectives: Check if your pool/token is eligible for our incentives'
+description: >-
+  Objectives: Using Etherscan and interacting with the
+  NonfungiblePositionManager contract you will be able to check the details of
+  your LP token
 ---
 
-# Step 2 : NonfungiblePositionManager (Part 1)
+# Step 2 : Check the details of your token
 
 ### All subsequent interactions will be on Etherscan. Please refer to this [link](https://etherscan.io).
 
-### 0xC36442b4a4522E871399CD717aBDD847Ab11FE88
+### NonfungiblePositionManager (0xC36442b4a4522E871399CD717aBDD847Ab11FE88)
 
 1. Input `0xC36442b4a4522E871399CD717aBDD847Ab11FE88` in the search bar
 2. Navigate to the `Contract` tab

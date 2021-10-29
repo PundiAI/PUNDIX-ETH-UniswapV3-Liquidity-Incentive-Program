@@ -1,14 +1,15 @@
 ---
 description: >-
-  Objectives: Approve NFT for safe transfer and transfer NFT to UniswapV3Staker
-  Contract
+  Objectives: Using Etherscan and interacting with the
+  NonfungiblePositionManager contract. Before staking in our farm, you will have
+  to send your LP token to the UniswapV3Staker contract
 ---
 
-# Step 4: NonfungiblePositionManager (Part 2)
+# Step 4: Approve NFT for safe transfer and transfer NFT to UniswapV3Staker Contract
 
 ### All subsequent interactions will be on Etherscan. Please refer to this [link](https://etherscan.io)
 
-### 0xC36442b4a4522E871399CD717aBDD847Ab11FE88
+### NonfungiblePositionManager (0xC36442b4a4522E871399CD717aBDD847Ab11FE88)
 
 > Before conducting liquidity mining, you will have to approve the **UniswapV3Staker** contract to use your token and then do a safe transfer to this contract address. This approval process is needed so that the smart contract is given the authority to “use” your tokens.
 

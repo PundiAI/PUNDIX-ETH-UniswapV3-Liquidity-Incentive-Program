@@ -1,8 +1,10 @@
 ---
-description: 'Objectives: Stake, Unstake, Withdraw and Claim reward'
+description: >-
+  Objectives: Using Etherscan and interacting with the UniswapV3Staker contract,
+  you will be able to stake, unstake, withdraw and claim our rewards!
 ---
 
-# Step 5: UniswapV3Staker
+# Step 5: Stake, Unstake, Withdraw and Claim reward
 
 ![](<../.gitbook/assets/UniV3Staker 18-10-21.png>)
 
@@ -12,7 +14,7 @@ description: 'Objectives: Stake, Unstake, Withdraw and Claim reward'
 3. You may choose to withdraw tokens and not claim rewards or claim rewards and not withdraw tokens.
 {% endhint %}
 
-### 0x1f98407aaB862CdDeF78Ed252D6f557aA5b0f00d
+### UniswapV3Staker (0x1f98407aaB862CdDeF78Ed252D6f557aA5b0f00d)
 
 ### Part 1 (Stake)
 

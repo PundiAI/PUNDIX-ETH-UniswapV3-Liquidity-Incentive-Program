@@ -26,5 +26,5 @@ You will essentially be interacting with 3 contracts (high level overview) using
 ![High level overview of the flow of interaction with the contracts](<.gitbook/assets/Overview Chart.PNG>)
 
 {% hint style="info" %}
-**If you are sure about your pool info i.e. that you have provided liquidity for PUNDIX-ETH at the 0.3% fee level, you may skip directly to **[**NonfungiblePositionManager (1)**](step-by-step-guide/nonfungiblepositionmanager-1.md)** and just follow the steps accordingly. Make sure you have your tokenID handy too!**
+**If you are sure about your pool info i.e. that you have provided liquidity for PUNDIX-ETH at the 0.3% fee level, you may skip directly to **[**step 4**](step-by-step-guide/nonfungiblepositionmanager-2.md)** and just follow the steps accordingly. Make sure you have your tokenID handy too!**
 {% endhint %}
