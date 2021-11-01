@@ -32,7 +32,7 @@ You may only start staking in the pool when the incentive has started on **Frida
    2. tokenId
 
 ```
-['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0x1A63853beA8A8ccFb52898E1783909d7da475E46']
+['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0xC5eC7a3295B1C664feEe4aEA17ea96A0d30f96b2']
 <your tokenID>
 ```
 
@@ -66,7 +66,7 @@ You will always need to unstake before withdrawing even when the incentive has a
    2. tokenId (uint256)
 
 ```
-['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0x1A63853beA8A8ccFb52898E1783909d7da475E46']
+['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0xC5eC7a3295B1C664feEe4aEA17ea96A0d30f96b2']
 <your tokenID>
 ```
 
@@ -123,7 +123,7 @@ Use the `getRewardInfo` function if your token is <mark style="color:red;">STILL
    2. tokenId (uint256)
 
 ```
-['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0x1A63853beA8A8ccFb52898E1783909d7da475E46']
+['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0xC5eC7a3295B1C664feEe4aEA17ea96A0d30f96b2']
 <your tokenID>
 ```
 
