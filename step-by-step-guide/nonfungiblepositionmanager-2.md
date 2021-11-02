@@ -25,9 +25,9 @@ description: >-
 
 6\. Input:
 
-1\. to (address)
+&#x20;     1\. to (address)
 
-2\. tokenId (uint256)
+&#x20;     2\. tokenId (uint256)
 
 ```
 0x1f98407aaB862CdDeF78Ed252D6f557aA5b0f00d
@@ -64,6 +64,6 @@ description: >-
 
 3\. Click `write`
 
-12\. A Metamask notification will appear, click `confirm`
+4\. A Metamask notification will appear, click `confirm`
 
 ![](<../.gitbook/assets/NonfungiblePositionManager 4 (safeTransferFrom).PNG>)
