@@ -185,7 +185,7 @@ uint256 : 0
 ```
 
 {% hint style="info" %}
-The amount you requested from part \*\*4b) \*\*will be needed here. You may request any amount between 0 to the amount you requested in **4b).**
+The amount you requested from part **4b)** will be needed here. You may request any amount between 0 to the amount you requested in **4b).**
 
 Say my eligible rewards was 21961075569626700000. I can claim a reward amount anything ranging from 1 to 21961075569626700000.
 {% endhint %}
