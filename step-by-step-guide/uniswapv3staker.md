@@ -36,6 +36,8 @@ You may only start staking in the pool when the incentive has started on **Frida
 <your tokenID>
 ```
 
+> For field 1 key (tuple) `copy` and `paste` the following: \['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0xC5eC7a3295B1C664feEe4aEA17ea96A0d30f96b2']
+>
 > Tuple information:
 >
 > 1. Rewardtoken address
@@ -70,6 +72,8 @@ You will always need to unstake before withdrawing even when the incentive has a
 <your tokenID>
 ```
 
+> For field 1 key (tuple) `copy` and `paste` the following: \['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0xC5eC7a3295B1C664feEe4aEA17ea96A0d30f96b2']
+
 {% hint style="info" %}
 Once the incentive has ended, your token can be unstaked by anyone, and you may stand to lose your rewards if you do not claim them.
 {% endhint %}
@@ -97,6 +101,8 @@ Please ensure your token has been unstaked before withdrawing. Once the incentiv
 <your wallet address>
 0x0000000000000000000000000000000000000000
 ```
+
+> For field 3 data (bytes) `copy` and `paste` the following: 0x0000000000000000000000000000000000000000
 
 {% hint style="info" %}
 Ensure \<your wallet address> is the owner of \<your tokenID>
@@ -127,6 +133,8 @@ Use the `getRewardInfo` function if your token is <mark style="color:red;">STILL
 <your tokenID>
 ```
 
+> For field 1 key (tuple) `copy` and `paste` the following: \['0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38','0xD050430dd432876cF5622fF60c4Dc106b64fA753',1636678800,1639184400,'0xC5eC7a3295B1C664feEe4aEA17ea96A0d30f96b2']
+
 4\. Click `query` return (eg):
 
 ```
@@ -153,6 +161,8 @@ The `rewards` function can only be used once you have <mark style="color:red;">`
 0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38
 <your wallet address>
 ```
+
+> For field 1 \<input> (address) `copy` and `paste` the following: 0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38
 
 {% hint style="info" %}
 Ensure \<your wallet address> is the owner of \<your tokenID>
@@ -183,6 +193,8 @@ uint256 : 0
 <your wallet address>
 <your reward amount you want to claim>
 ```
+
+> For field 1 rewardToken (address) `copy` and `paste` the following: 0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38
 
 {% hint style="info" %}
 The amount you requested from part **4b)** will be needed here. You may request any amount between 0 to the amount you requested in **4b).**
